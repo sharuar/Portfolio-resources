@@ -122,3 +122,13 @@ main{
 .about-info{
   text-align: center;
 }
+/* what i do */
+#what-i-do-description{
+  padding: 30px 150px;
+}
+
+
+.skill-container{
+  display: flex;
+  justify-content: space-around;
+}
