@@ -183,19 +183,25 @@ main section{
 /* footer style */
 footer{
   display: flex;
+  gap: 100px;
   background: #fff8f3;
   padding: 130px 200px;
   margin-top: 100px;
 }
-label{
-  display: block;
-  margin: 30px;
+.social-links a{
+  margin-right: 20px;
 }
-.form-title{
-  text-align:justify;
+.footer-column{
+  width: 50%;
 }
 
-.footer-des{
-  font-style: italic;
-  padding-right: 250px;
+.contact label, input[type = "name"], .contact input[type = "email"], textarea{
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  font-size: 20px;
+  border-radius: 5px;
+  background: #fff;
+  border: 0;
+  width: 100%;
 }
